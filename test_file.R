@@ -3,7 +3,7 @@
 require(quantmod, TTR)
 
 ### getSymbols() gets data from variety of sources
-#   current src methods - yahoo, google, MySQL, FRED, csv, RData & OANDA
+#   current src methods - yahoo, google, MySQL, FRED (Federal Reserve Bank of St Louis), OANDA (FX & Metals), csv & RData
 #   from = 'YYYY-MM-DD', to = 'YYY-MM-DD'
 #   adjust = T/F 
 #   return.class arguement is the class of vector returned ts, its, zoo, xts or timeSeries 
